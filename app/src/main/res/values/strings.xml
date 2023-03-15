@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cs478_ProjectThree_A1</string>
+    <string name="visit_new_york_city">Visit New York City</string>
+    <string name="visit_orlando">Visit Orlando</string>
+    <string name="new_york">New York</string>
+    <string name="orlando">Orlando</string>
+    <string name="cs_478_project_three_a1">CS 478 Project Three - A1</string>
+</resources>
