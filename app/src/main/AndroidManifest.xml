@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
-<!--    TODO: use A2's defined permission-->
+    <uses-permission android:name="edu.uic.cs478.spring23.mp3"/>
 
     <application
         android:allowBackup="true"
