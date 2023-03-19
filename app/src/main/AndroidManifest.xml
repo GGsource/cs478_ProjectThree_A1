@@ -2,6 +2,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!--|~~~~~~CS 478 - Project 3: Application 1 ~~~~~~|
+    Course: CS 478 Spring 2023
+    Name: Geovani Gonzalez
+    NetID: ggonza55@uic.edu | UIN: 657437605
+    |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+    Description: Broadcast Intent sender application with
+    two buttons labeled New York & Orlando. When pressed
+    the application will first check if the application has
+    the necessary dangerous permission for the user to
+    deliver this intent. If they don't then a dialogue
+    pops up requesting the permission from the user. Once
+    the permission is granted the application will broadcast
+    an intent with the correct city name bundled within.
+    |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+    Started: March 9th, 2023
+    Completed: March 19th, 2023
+    |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+    Notes: In class, App 2 was shown to receive the
+    broadcast intent by being in split-screen with App 1
+    because App 2 is not able to receive intents while it
+    is stopped. Thus this project is made with the assumption
+    that this is how it will be used and graded.
+    |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|-->
+
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
     <uses-permission android:name="edu.uic.cs478.spring23.mp3"/>
 
